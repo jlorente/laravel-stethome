@@ -77,8 +77,8 @@ params will be automaticaly injected.
 StethoMe::api()->getVisitId();
 ```
 
-See the [StethoMe API](https://documenter.getpostman.com/view/6250828/S17m1BbV?version=latest) 
-to know more about the API endpoints and params.
+See the [StethoMe PHP SDK](https://github.com/jlorente/stethome-php-sdk) or the [StethoMe API](https://documenter.getpostman.com/view/6250828/S17m1BbV?version=latest) to know more about the 
+methods and the API endpoints params and responses.
 
 ## License 
 Copyright &copy; 2020 José Lorente Martín <jose.lorente.martin@gmail.com>.
