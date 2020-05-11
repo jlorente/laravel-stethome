@@ -3,14 +3,20 @@
 return [
     /*
       |--------------------------------------------------------------------------
-      | Api Key
+      | Vendor Token
       |--------------------------------------------------------------------------
       |
-      | The stethome API key. You can find it or create a new one in the
-      | API authentication tab of the application section in the StethoMe dashboard
-      | https://dashboard.stethome.me/apps/<YOUR_APP_ID>/auth
+      | The Stethome Vendor Token.
      */
     'vendor_token' => env('STETHOME_VENDOR_TOKEN'),
+    /*
+      |--------------------------------------------------------------------------
+      | Base Uri
+      |--------------------------------------------------------------------------
+      |
+      | The Stethome Base Uri.
+     */
+    'base_uri' => env('STETHOME_BASE_URI', 'https://cert2.middleware.stethome.com/v1'),
     /*
       |--------------------------------------------------------------------------
       | Request Retries

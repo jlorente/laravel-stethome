@@ -77,6 +77,7 @@ class StethoMeServiceProvider extends ServiceProvider
             $config = $app['config']->get('stethome');
             return new StethoMe(
                     isset($config['vendor_token']) ? $config['vendor_token'] : null
+                    , isset($config['base_uri']) ? $config['base_uri'] : null
                     , isset($config['request_retries']) ? $config['request_retries'] : null
             );
         });
