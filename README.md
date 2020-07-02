@@ -74,7 +74,7 @@ You can use the facade alias StethoMe to execute api calls. The authentication
 params will be automaticaly injected.
 
 ```php
-StethoMe::api()->getVisitId();
+StethoMe::pulmonary()->getVisitId();
 ```
 
 See the [StethoMe PHP SDK](https://github.com/jlorente/stethome-php-sdk) or the [StethoMe API](https://documenter.getpostman.com/view/6250828/S17m1BbV?version=latest) to know more about the 
